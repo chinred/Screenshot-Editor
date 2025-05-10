@@ -1,13 +1,8 @@
 import React from "react";
-import CanvasEditor from "./CanvasEditor";
-import "./App.css";
+import CanvasEditor from "./pages/CanvasEditor";
 
-const App = () => {
-  return (
-    <div className="app-container">
-      <CanvasEditor />
-    </div>
-  );
-};
+function App() {
+  return <CanvasEditor />;
+}
 
 export default App;
