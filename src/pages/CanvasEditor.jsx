@@ -147,6 +147,7 @@ const CanvasEditor = () => {
           setBgType={setBgType}
           setGradientFrom={setGradientFrom}
           setGradientTo={setGradientTo}
+          setBgColor={setBgColor} 
         />
       </div>
 
